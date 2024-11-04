@@ -30,7 +30,7 @@ git clone https://github.com/Jimmyu2foru18/2d-fighter.git
 2. Set up the project structure:
 ```
 2d-fighter/
-├── index.html
+├── 2D Fighter.html
 ├── 2D Fighter.js
 ├── 2D Fighter.css
 ├── assets/
