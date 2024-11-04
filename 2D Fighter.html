@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Fighter Game</title>
+    <link rel="stylesheet" href="2D Fighter.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- HUD Elements -->
+        <div class="hud">
+            <div class="player-health">
+                <div class="health-bar p1-health"></div>
+                <span class="player-name">P1</span>
+            </div>
+            <div class="timer">99</div>
+            <div class="player-health">
+                <div class="health-bar p2-health"></div>
+                <span class="player-name">P2</span>
+            </div>
+        </div>
+
+        <!-- Game Canvas -->
+        <canvas id="gameCanvas"></canvas>
+
+        <!-- Round/Game Messages -->
+        <div class="game-message"></div>
+    </div>
+
+    <script src="2D Fighter.js"></script>
+</body>
+</html> 
