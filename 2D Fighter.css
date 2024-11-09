@@ -101,7 +101,6 @@ body {
     background: linear-gradient(90deg, #0000ff, #4444ff);
 }
 
-/* Add these styles for hit effects */
 @keyframes hit-flash {
     0% { opacity: 1; }
     50% { opacity: 0.5; }
