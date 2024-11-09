@@ -240,8 +240,6 @@ class Game {
             this.showErrorMessage('An unexpected error occurred');
         }
     }
-
-    // ... (continued in next part)
 }
 
 // Additional required classes:
@@ -957,8 +955,6 @@ class SpecialMoveSystem {
     getMove(key) {
         return this.moves[key];
     }
-
-    // ... (continued in next part)
 }
 
 /**
@@ -1014,8 +1010,6 @@ class CharacterSystem {
     getCharacter(key) {
         return this.characters.get(key);
     }
-
-    // ... (continued in next part)
 }
 
 /**
@@ -1034,8 +1028,6 @@ class SpecialMoveSystem {
     getMove(key) {
         return this.moves[key];
     }
-
-    // ... (continued in next part)
 }
 
 /**
